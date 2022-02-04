@@ -1,0 +1,45 @@
+welcome message(welcome the user explain how to pick a game)
+pick game:
+    genarated word(pick a random word from a list)
+
+        user input:input mesaage(give a hint and take the user try)
+
+        compare the 2 words(make a list of the right letters and the wrong ones)
+
+        print the mesaage(tell the user the right letter and the wrong ones)
+
+        lose or win(win if the guess is right lose after user tries are 0 ,user try = 5)
+
+    genarated number
+
+        user input:input mesaage(explain the game and take the user try)
+
+        compare the 2 numbers(count the wrong,the mispostioned and the wrong ones)
+
+        print the mesaage(tell the user how many wrong,mispostioned and true digits)
+
+        lose or win(win if the guess is right lose after user tries are 0 ,user try = 5)
+
+    try again or quit or change the game(let the user to try again or quit the game or change it)
+
+
+variables:
+    genarated word,the message,user_tries_count,user_try,game_status,
+
+functions:
+    message genarator, number genarator,comparator,lose_cheker
+
+classes :
+    games mode(number,word)
+    genarator+comparator
+
+
+
+Game:pick a game mode
+Player:number
+the game genarate a random number(123)
+Game:try to guess the number
+Player:102
+Game:(1) is in the right position, (2) try to change its place,(0) doesn't exist,you have 4 tries left
+Player:123
+Game:congrats!
